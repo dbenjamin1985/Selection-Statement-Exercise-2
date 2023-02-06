@@ -8,7 +8,7 @@
             Console.WriteLine("What is your favorite school subject?");
             string subject = (Console.ReadLine());
             
-            switch (subject)
+            switch (subject.ToLower())
             {
                 case "math":
                     Console.WriteLine("Not bad! Math is decent!");
